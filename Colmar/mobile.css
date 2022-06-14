@@ -1,0 +1,82 @@
+@media screen and (max-width: 768px) {
+    .banner-container {
+      font-size: 24px;
+    }
+    .banner-container img {
+      width: 100%;
+    }
+    
+    .banner-container {
+      padding: 0px 0px 32px;
+      flex-direction: column;
+    }
+  
+    .banner {
+      max-width: unset;
+      margin-left: 0px;
+      padding: 32px 16px 0px;
+    }
+  
+    .banner h1 {
+      margin-top: 0px;
+    }
+  
+    .banner button {
+      background-color: #9a9a9a;
+      font-size: 24px;
+    }
+
+
+    header .logo h1 {
+        visibility: collapse;
+    }
+
+    nav {
+        visibility: collapse;
+    }
+
+    .blog {
+        display: none;
+    }
+
+    .side {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .inner-exhibit {
+        padding: 0px;
+    }
+
+    .exhibit h2 {
+        font-size: 36px;
+        padding: 32px 0px 16px 0px;
+    }
+    
+
+    .exhibit .video-text {
+        display: none;
+    }
+    .exhibit .thesis-side {
+        display: none;
+    }
+
+    .video {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+
+    footer {
+        padding-bottom: 0;
+    }
+
+    footer ul {
+        display: none;
+    }
+
+    footer p {
+        padding: 16px 0px;
+    }
+  }
