@@ -45,6 +45,33 @@
         flex-direction: column;
     }
 
+    .course h2 {
+      padding: 32px 0px 16px 0px;
+    }
+
+    .course img, .course p {
+      display: none;
+    }
+
+    .course .gallary h4 {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 16px 0px 24px 16px;
+    }
+
+    .course-gallary {
+      padding: 0px;
+      width: 100%;
+      flex-direction: column;
+      margin: 0;
+    }
+
+    .gallary {
+      width: 100%;
+    }
+
 
     .inner-exhibit {
         padding: 0px;
